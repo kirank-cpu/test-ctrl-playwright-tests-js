@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1781216923045.0325,
+    "action": "goto",
+    "description": "Launch the app",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://www.demoqa.com",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  }
+]
