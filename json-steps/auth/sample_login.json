@@ -1,9 +1,0 @@
-[
-  {
-    "action": "click",
-    "locator": {
-      "type": "id",
-      "value": "login"
-    }
-  }
-]
