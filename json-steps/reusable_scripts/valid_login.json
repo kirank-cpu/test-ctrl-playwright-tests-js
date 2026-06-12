@@ -1,0 +1,215 @@
+{
+  "steps": [
+    {
+      "id": 1781269805723.3403,
+      "action": "goto",
+      "description": "Launch the app",
+      "locator": {
+        "type": "css",
+        "value": ""
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "https://www.saucedemo.com/",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false
+    },
+    {
+      "id": 1781269848683,
+      "action": "click",
+      "description": "Click \"User Name\"",
+      "locator": {
+        "type": "id",
+        "value": "user-name"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "user-name",
+      "value": ""
+    },
+    {
+      "id": 1781269850261,
+      "action": "fill",
+      "description": "Fill \"User Name\" field",
+      "locator": {
+        "type": "id",
+        "value": "user-name"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "standard_user",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "input",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "user-name",
+      "value": "s"
+    },
+    {
+      "id": 1781269859323,
+      "action": "fill",
+      "description": "Fill \"Password\" field",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "secret_sauce",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "input",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "password",
+      "value": "s"
+    },
+    {
+      "id": 1781269868272,
+      "action": "click",
+      "description": "Click \"Login Button\"",
+      "locator": {
+        "type": "id",
+        "value": "login-button"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "login-button",
+      "value": ""
+    },
+    {
+      "id": 1781269879943,
+      "action": "isElementDisplayed",
+      "description": "Click \"Products\"",
+      "locator": {
+        "type": "xpath",
+        "value": "//span[normalize-space()=\"Products\"]"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Products",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "SPAN",
+      "locatorType": "xpath",
+      "selector": "//span[normalize-space()=\"Products\"]",
+      "value": "Products"
+    }
+  ],
+  "pomClasses": [
+    {
+      "id": "default",
+      "name": "login page"
+    }
+  ]
+}
