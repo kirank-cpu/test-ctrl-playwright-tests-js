@@ -33,7 +33,7 @@
     {
       "id": 1781269848683,
       "action": "click",
-      "description": "Click \"User Name\"",
+      "description": "Click \"User Name\" test field",
       "locator": {
         "type": "id",
         "value": "user-name"
@@ -173,7 +173,7 @@
     {
       "id": 1781269879943,
       "action": "isElementDisplayed",
-      "description": "Click \"Products\"",
+      "description": "Verify Header - \"Products\" ",
       "locator": {
         "type": "xpath",
         "value": "//span[normalize-space()=\"Products\"]"
