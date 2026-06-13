@@ -3,21 +3,21 @@ import { expect } from '@playwright/test';
 export class LoginPage {
   constructor(page) {
     this.page = page;
-    this.clickUserNameTestFieldLocator = page.locator(`#user-name`);
+    this.clickUserNameLocator = page.locator(`#user-name`);
     this.fillUserNameFieldLocator = page.locator(`#user-name`);
     this.fillPasswordFieldLocator = page.locator(`#password`);
     this.clickLoginButtonLocator = page.locator(`#login-button`);
-    this.verifyHeaderProductsLocator = page.locator(`//span[normalize-space()="Products"]`);
+    this.clickProductsLocator = page.locator(`//span[normalize-space()="Products"]`);
   }
 
-  async launchTheApp() {
-    // Launch the app
+  async launchTheDemoApp() {
+    // Launch the demo app
     await this.page.goto(`https://www.saucedemo.com/`);
   }
 
-  async clickUserNameTestField() {
-    // Click "User Name" test field
-    await this.clickUserNameTestFieldLocator.click();
+  async clickUserName() {
+    // Click "User Name"
+    await this.clickUserNameLocator.click();
   }
 
   async fillUserNameField() {
@@ -35,9 +35,9 @@ export class LoginPage {
     await this.clickLoginButtonLocator.click();
   }
 
-  async verifyHeaderProducts() {
-    // Verify Header - "Products" 
-    await expect(this.verifyHeaderProductsLocator).toBeVisible();
+  async clickProducts() {
+    // Click "Products"
+    await expect(this.clickProductsLocator).toBeVisible();
   }
 
 }
