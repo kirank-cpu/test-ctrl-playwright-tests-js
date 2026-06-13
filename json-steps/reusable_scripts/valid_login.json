@@ -3,7 +3,7 @@
     {
       "id": 1781269805723.3403,
       "action": "goto",
-      "description": "Launch the app",
+      "description": "Launch the demo app",
       "locator": {
         "type": "css",
         "value": ""
@@ -33,7 +33,7 @@
     {
       "id": 1781269848683,
       "action": "click",
-      "description": "Click \"User Name\" test field",
+      "description": "Click \"User Name\"",
       "locator": {
         "type": "id",
         "value": "user-name"
@@ -173,7 +173,7 @@
     {
       "id": 1781269879943,
       "action": "isElementDisplayed",
-      "description": "Verify Header - \"Products\" ",
+      "description": "Click \"Products\"",
       "locator": {
         "type": "xpath",
         "value": "//span[normalize-space()=\"Products\"]"
