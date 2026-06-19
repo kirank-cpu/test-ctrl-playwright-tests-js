@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1781211689721.0818,
+    "action": "goto",
+    "description": "Launch",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://www.google.co.in",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  }
+]
