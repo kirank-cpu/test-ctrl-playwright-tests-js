@@ -1,0 +1,762 @@
+{
+  "steps": [
+    {
+      "id": 1781221583784.0264,
+      "action": "goto",
+      "description": "Launch the URL",
+      "locator": {
+        "type": "css",
+        "value": ""
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "https://www.saucedemo.com",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false
+    },
+    {
+      "id": 1781221371718,
+      "action": "click",
+      "description": "Click \"User Name\"",
+      "locator": {
+        "type": "id",
+        "value": "user-name"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "user-name",
+      "value": ""
+    },
+    {
+      "id": 1781221373044,
+      "action": "fill",
+      "description": "Fill \"User Name\" field",
+      "locator": {
+        "type": "id",
+        "value": "user-name"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "standard_user",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "input",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "user-name",
+      "value": "s"
+    },
+    {
+      "id": 1781221385078,
+      "action": "click",
+      "description": "Click \"Password\"",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "password",
+      "value": ""
+    },
+    {
+      "id": 1781221386801,
+      "action": "fill",
+      "description": "Fill \"Password\" field",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "secret_sauce",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "input",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "password",
+      "value": "s"
+    },
+    {
+      "id": 1781221409410,
+      "action": "click",
+      "description": "Click \"Login Button\"",
+      "locator": {
+        "type": "id",
+        "value": "login-button"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "login-button",
+      "value": ""
+    },
+    {
+      "id": 1781221425143,
+      "action": "click",
+      "description": "Click \"Add to cart\"",
+      "locator": {
+        "type": "id",
+        "value": "add-to-cart-sauce-labs-backpack"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Add to cart",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "add-to-cart-sauce-labs-backpack",
+      "value": "Add to cart",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221427047,
+      "action": "click",
+      "description": "Click \"Add to cart\"",
+      "locator": {
+        "type": "id",
+        "value": "add-to-cart-sauce-labs-bike-light"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Add to cart",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "add-to-cart-sauce-labs-bike-light",
+      "value": "Add to cart",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221428743,
+      "action": "click",
+      "description": "Click \"Add to cart\"",
+      "locator": {
+        "type": "id",
+        "value": "add-to-cart-sauce-labs-bolt-t-shirt"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Add to cart",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "add-to-cart-sauce-labs-bolt-t-shirt",
+      "value": "Add to cart",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221430403,
+      "action": "click",
+      "description": "Click \"Add to cart\"",
+      "locator": {
+        "type": "id",
+        "value": "add-to-cart-sauce-labs-fleece-jacket"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Add to cart",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "add-to-cart-sauce-labs-fleece-jacket",
+      "value": "Add to cart",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221436600,
+      "action": "click",
+      "description": "Click \"4\"",
+      "locator": {
+        "type": "xpath",
+        "value": "//a[normalize-space()=\"4\"]"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "4",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "A",
+      "locatorType": "xpath",
+      "selector": "//a[normalize-space()=\"4\"]",
+      "value": "4",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221441540,
+      "action": "click",
+      "description": "Click \"Remove\"",
+      "locator": {
+        "type": "id",
+        "value": "remove-sauce-labs-backpack"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Remove",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "remove-sauce-labs-backpack",
+      "value": "Remove",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221442512,
+      "action": "click",
+      "description": "Click \"Remove\"",
+      "locator": {
+        "type": "id",
+        "value": "remove-sauce-labs-bike-light"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Remove",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "remove-sauce-labs-bike-light",
+      "value": "Remove",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221447109,
+      "action": "click",
+      "description": "Click \"Checkout\"",
+      "locator": {
+        "type": "id",
+        "value": "checkout"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Checkout",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "checkout",
+      "value": "Checkout",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221449297,
+      "action": "click",
+      "description": "Click \"Cancel\"",
+      "locator": {
+        "type": "id",
+        "value": "cancel"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Cancel",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "cancel",
+      "value": "Cancel",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221454186,
+      "action": "click",
+      "description": "Click \"Remove\"",
+      "locator": {
+        "type": "id",
+        "value": "remove-sauce-labs-bolt-t-shirt"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Remove",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "remove-sauce-labs-bolt-t-shirt",
+      "value": "Remove",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221456441,
+      "action": "click",
+      "description": "Click \"Remove\"",
+      "locator": {
+        "type": "id",
+        "value": "remove-sauce-labs-fleece-jacket"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Remove",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "remove-sauce-labs-fleece-jacket",
+      "value": "Remove",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221460770,
+      "action": "click",
+      "description": "Click \"Continue Shopping\"",
+      "locator": {
+        "type": "id",
+        "value": "continue-shopping"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Continue Shopping",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "continue-shopping",
+      "value": "Continue Shopping",
+      "pomClassId": "pom_1781222398069_9f1vk"
+    },
+    {
+      "id": 1781221463236,
+      "action": "click",
+      "description": "Click \"Open Menu\"",
+      "locator": {
+        "type": "id",
+        "value": "react-burger-menu-btn"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Open Menu",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "BUTTON",
+      "locatorType": "id",
+      "selector": "react-burger-menu-btn",
+      "value": "Open Menu",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221465635,
+      "action": "click",
+      "description": "Click \"Logout\"",
+      "locator": {
+        "type": "id",
+        "value": "logout_sidebar_link"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "Logout",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "A",
+      "locatorType": "id",
+      "selector": "logout_sidebar_link",
+      "value": "Logout",
+      "pomClassId": "pom_1781222367265_63mu2"
+    },
+    {
+      "id": 1781221469497,
+      "action": "isElementVisible",
+      "description": "Verify \"User Name\" (2)",
+      "locator": {
+        "type": "css",
+        "value": "#user-name"
+      },
+      "destLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "frameLocator": {
+        "type": "css",
+        "value": ""
+      },
+      "fallback1": {
+        "type": "xpath",
+        "value": ""
+      },
+      "fallback2": {
+        "type": "text",
+        "value": ""
+      },
+      "inputValue": "",
+      "isSecure": false,
+      "isData": false,
+      "inIframe": false,
+      "isHealing": false,
+      "type": "click",
+      "target": "INPUT",
+      "locatorType": "id",
+      "selector": "user-name",
+      "value": ""
+    }
+  ],
+  "pomClasses": [
+    {
+      "id": "default",
+      "name": "login page"
+    },
+    {
+      "id": "pom_1781222367265_63mu2",
+      "name": "home page"
+    },
+    {
+      "id": "pom_1781222398069_9f1vk",
+      "name": "cart page"
+    }
+  ]
+}
