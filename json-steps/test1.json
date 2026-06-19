@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1780723268739.675,
+    "action": "goto",
+    "description": "Launch App",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1780723405645,
+    "action": "fill",
+    "description": "Fill \"Username\" field",
+    "locator": {
+      "type": "name",
+      "value": "username"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Admin",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "name",
+    "selector": "username",
+    "value": "A"
+  },
+  {
+    "id": 1780723409132,
+    "action": "click",
+    "description": "Click \"Password\"",
+    "locator": {
+      "type": "name",
+      "value": "password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "name",
+    "selector": "password",
+    "value": ""
+  },
+  {
+    "id": 1780723410229,
+    "action": "fill",
+    "description": "Fill \"Password\" field",
+    "locator": {
+      "type": "name",
+      "value": "password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "admin123",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "name",
+    "selector": "password",
+    "value": "a"
+  },
+  {
+    "id": 1780723414422,
+    "action": "click",
+    "description": "Click \"Login\"",
+    "locator": {
+      "type": "xpath",
+      "value": "//button[normalize-space()=\"Login\"]"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Login",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "xpath",
+    "selector": "//button[normalize-space()=\"Login\"]",
+    "value": "Login"
+  }
+]
