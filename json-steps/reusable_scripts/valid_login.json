@@ -3,7 +3,7 @@
     {
       "id": 1781269805723.3403,
       "action": "goto",
-      "description": "Launch the app",
+      "description": "Launch the demo app",
       "locator": {
         "type": "css",
         "value": ""

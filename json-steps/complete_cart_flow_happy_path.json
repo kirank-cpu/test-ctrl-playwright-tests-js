@@ -1,0 +1,736 @@
+[
+  {
+    "id": 1780543171158,
+    "action": "callScript",
+    "description": "Login to Sauce demo App",
+    "locator": {
+      "type": "xpath",
+      "value": "#login-button"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "saucedemo_login.spec.js",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "selector": "#login-button",
+    "value": "",
+    "subSteps": [
+      {
+        "id": 1780539091565.3127,
+        "action": "goto",
+        "description": "Launch the App",
+        "locator": {
+          "type": "css",
+          "value": ""
+        },
+        "destLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "frameLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "fallback1": {
+          "type": "xpath",
+          "value": ""
+        },
+        "fallback2": {
+          "type": "text",
+          "value": ""
+        },
+        "inputValue": "https://www.saucedemo.com/",
+        "isSecure": false,
+        "isData": false,
+        "inIframe": false,
+        "isHealing": false
+      },
+      {
+        "id": 1780539114310.8503,
+        "action": "fill",
+        "description": "Enter Username",
+        "locator": {
+          "type": "css",
+          "value": "#user-name"
+        },
+        "destLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "frameLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "fallback1": {
+          "type": "xpath",
+          "value": ""
+        },
+        "fallback2": {
+          "type": "text",
+          "value": ""
+        },
+        "inputValue": "standard_user",
+        "isSecure": false,
+        "isData": false,
+        "inIframe": false,
+        "isHealing": false
+      },
+      {
+        "id": 1780539145233.0325,
+        "action": "fill",
+        "description": "Enter password",
+        "locator": {
+          "type": "css",
+          "value": "#password"
+        },
+        "destLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "frameLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "fallback1": {
+          "type": "xpath",
+          "value": ""
+        },
+        "fallback2": {
+          "type": "text",
+          "value": ""
+        },
+        "inputValue": "secret_sauce",
+        "isSecure": false,
+        "isData": false,
+        "inIframe": false,
+        "isHealing": false
+      },
+      {
+        "id": 1780539175607.011,
+        "action": "click",
+        "description": "Click login button",
+        "locator": {
+          "type": "css",
+          "value": "#login-button"
+        },
+        "destLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "frameLocator": {
+          "type": "css",
+          "value": ""
+        },
+        "fallback1": {
+          "type": "xpath",
+          "value": ""
+        },
+        "fallback2": {
+          "type": "text",
+          "value": ""
+        },
+        "inputValue": "",
+        "isSecure": false,
+        "isData": false,
+        "inIframe": false,
+        "isHealing": false
+      }
+    ]
+  },
+  {
+    "id": 1780543175208,
+    "action": "click",
+    "description": "Click on backpack",
+    "locator": {
+      "type": "xpath",
+      "value": "#add-to-cart-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Add to cart",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#add-to-cart-sauce-labs-backpack",
+    "value": "Add to cart"
+  },
+  {
+    "id": 1780543177038,
+    "action": "click",
+    "description": "Click on Bike light",
+    "locator": {
+      "type": "xpath",
+      "value": "#add-to-cart-sauce-labs-bike-light"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Add to cart",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#add-to-cart-sauce-labs-bike-light",
+    "value": "Add to cart"
+  },
+  {
+    "id": 1780543179423,
+    "action": "click",
+    "description": "Click on Cart link",
+    "locator": {
+      "type": "xpath",
+      "value": "a.shopping_cart_link"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "2",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "selector": "a.shopping_cart_link",
+    "value": "2"
+  },
+  {
+    "id": 1780543182862,
+    "action": "click",
+    "description": "Remove backpack item",
+    "locator": {
+      "type": "xpath",
+      "value": "#remove-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Remove",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#remove-sauce-labs-backpack",
+    "value": "Remove"
+  },
+  {
+    "id": 1780543185770,
+    "action": "click",
+    "description": "Click on Checkout",
+    "locator": {
+      "type": "xpath",
+      "value": "#checkout"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Checkout",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#checkout",
+    "value": "Checkout"
+  },
+  {
+    "id": 1780543187185,
+    "action": "click",
+    "description": "Click on First name field",
+    "locator": {
+      "type": "xpath",
+      "value": "#first-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "selector": "#first-name",
+    "value": ""
+  },
+  {
+    "id": 1780543188854,
+    "action": "fill",
+    "description": "Enter First name",
+    "locator": {
+      "type": "xpath",
+      "value": "#first-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "First my name",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "selector": "#first-name",
+    "value": "F"
+  },
+  {
+    "id": 1780543195668,
+    "action": "click",
+    "description": "Click on Last name",
+    "locator": {
+      "type": "xpath",
+      "value": "#last-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "selector": "#last-name",
+    "value": ""
+  },
+  {
+    "id": 1780543196651,
+    "action": "fill",
+    "description": "Enter Last name",
+    "locator": {
+      "type": "xpath",
+      "value": "#last-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "My Last name",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "selector": "#last-name",
+    "value": "M"
+  },
+  {
+    "id": 1780543201448,
+    "action": "click",
+    "description": "Click on Post code",
+    "locator": {
+      "type": "xpath",
+      "value": "#postal-code"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "selector": "#postal-code",
+    "value": ""
+  },
+  {
+    "id": 1780543201971,
+    "action": "fill",
+    "description": "Enter Postcode",
+    "locator": {
+      "type": "xpath",
+      "value": "#postal-code"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "123456",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "selector": "#postal-code",
+    "value": "1"
+  },
+  {
+    "id": 1780543205637,
+    "action": "click",
+    "description": "Click on Continue",
+    "locator": {
+      "type": "xpath",
+      "value": "#continue"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "selector": "#continue",
+    "value": ""
+  },
+  {
+    "id": 1780543208130,
+    "action": "click",
+    "description": "Click on Finish",
+    "locator": {
+      "type": "xpath",
+      "value": "#finish"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Finish",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#finish",
+    "value": "Finish"
+  },
+  {
+    "id": 1780543209745,
+    "action": "click",
+    "description": "Click on Back to products",
+    "locator": {
+      "type": "xpath",
+      "value": "#back-to-products"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Back Home",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#back-to-products",
+    "value": "Back Home"
+  },
+  {
+    "id": 1780543212274,
+    "action": "click",
+    "description": "Click on menu button",
+    "locator": {
+      "type": "xpath",
+      "value": "#react-burger-menu-btn"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Open Menu",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#react-burger-menu-btn",
+    "value": "Open Menu"
+  },
+  {
+    "id": 1780543213825,
+    "action": "click",
+    "description": "Click on Side bar link",
+    "locator": {
+      "type": "xpath",
+      "value": "#logout_sidebar_link"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Logout",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "selector": "#logout_sidebar_link",
+    "value": "Logout"
+  },
+  {
+    "id": 1780543217779,
+    "action": "click",
+    "description": "Click on login logo",
+    "locator": {
+      "type": "xpath",
+      "value": "div.login_logo"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Swag Labs",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "DIV",
+    "selector": "div.login_logo",
+    "value": "Swag Labs"
+  }
+]

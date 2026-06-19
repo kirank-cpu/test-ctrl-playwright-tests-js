@@ -1,0 +1,794 @@
+[
+  {
+    "id": 1780546147190.7478,
+    "action": "goto",
+    "description": "Launch the App",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://www.saucedemo.com/",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1780546186886,
+    "action": "fill",
+    "description": "Fill username field",
+    "locator": {
+      "type": "css",
+      "value": "#user-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "standard_user",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "selector": "#user-name",
+    "value": "s"
+  },
+  {
+    "id": 1780546192984,
+    "action": "fill",
+    "description": "Fill password field",
+    "locator": {
+      "type": "css",
+      "value": "#password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "secret_sauce",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "selector": "#password",
+    "value": "s"
+  },
+  {
+    "id": 1780546556849,
+    "action": "click",
+    "description": "Click \"Login Button\"",
+    "locator": {
+      "type": "id",
+      "value": "login-button"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "login-button",
+    "value": ""
+  },
+  {
+    "id": 1780546199844,
+    "action": "click",
+    "description": "Click \"Add to cart\"",
+    "locator": {
+      "type": "css",
+      "value": "#add-to-cart-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Add to cart",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#add-to-cart-sauce-labs-backpack",
+    "value": "Add to cart"
+  },
+  {
+    "id": 1780546202632,
+    "action": "click",
+    "description": "Click cart",
+    "locator": {
+      "type": "css",
+      "value": "a.shopping_cart_link"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "1",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "selector": "a.shopping_cart_link",
+    "value": "1"
+  },
+  {
+    "id": 1780546204480,
+    "action": "click",
+    "description": "Click \"Continue Shopping\"",
+    "locator": {
+      "type": "css",
+      "value": "#continue-shopping"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Continue Shopping",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#continue-shopping",
+    "value": "Continue Shopping"
+  },
+  {
+    "id": 1780547253074,
+    "action": "click",
+    "description": "Click \"Add to cart\"",
+    "locator": {
+      "type": "id",
+      "value": "add-to-cart-sauce-labs-bike-light"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Add to cart",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "add-to-cart-sauce-labs-bike-light",
+    "value": "Add to cart"
+  },
+  {
+    "id": 1780547255119,
+    "action": "click",
+    "description": "Click \"2\"",
+    "locator": {
+      "type": "xpath",
+      "value": "//a[normalize-space()=\"2\"]"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "2",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "locatorType": "xpath",
+    "selector": "//a[normalize-space()=\"2\"]",
+    "value": "2"
+  },
+  {
+    "id": 1780547257343,
+    "action": "click",
+    "description": "Click \"Checkout\"",
+    "locator": {
+      "type": "id",
+      "value": "checkout"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Checkout",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "checkout",
+    "value": "Checkout"
+  },
+  {
+    "id": 1780547259658,
+    "action": "click",
+    "description": "Click \"First Name\"",
+    "locator": {
+      "type": "id",
+      "value": "first-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "first-name",
+    "value": ""
+  },
+  {
+    "id": 1780547261192,
+    "action": "fill",
+    "description": "Fill \"First Name\" field",
+    "locator": {
+      "type": "id",
+      "value": "first-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Test name",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "first-name",
+    "value": "T"
+  },
+  {
+    "id": 1780547265038,
+    "action": "click",
+    "description": "Click \"Last Name\"",
+    "locator": {
+      "type": "id",
+      "value": "last-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "last-name",
+    "value": ""
+  },
+  {
+    "id": 1780547266278,
+    "action": "fill",
+    "description": "Fill \"Last Name\" field",
+    "locator": {
+      "type": "id",
+      "value": "last-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "LM",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "last-name",
+    "value": "L"
+  },
+  {
+    "id": 1780547268055,
+    "action": "click",
+    "description": "Click \"Postal Code\"",
+    "locator": {
+      "type": "id",
+      "value": "postal-code"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "postal-code",
+    "value": ""
+  },
+  {
+    "id": 1780547269365,
+    "action": "fill",
+    "description": "Fill \"Postal Code\" field",
+    "locator": {
+      "type": "id",
+      "value": "postal-code"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "654321",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "postal-code",
+    "value": "6"
+  },
+  {
+    "id": 1780547273603,
+    "action": "click",
+    "description": "Click \"Cancel\"",
+    "locator": {
+      "type": "id",
+      "value": "cancel"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Cancel",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "cancel",
+    "value": "Cancel"
+  },
+  {
+    "id": 1780547276320,
+    "action": "click",
+    "description": "Click \"Remove\"",
+    "locator": {
+      "type": "id",
+      "value": "remove-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Remove",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "remove-sauce-labs-backpack",
+    "value": "Remove"
+  },
+  {
+    "id": 1780547277019,
+    "action": "click",
+    "description": "Click \"Remove\"",
+    "locator": {
+      "type": "id",
+      "value": "remove-sauce-labs-bike-light"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Remove",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "remove-sauce-labs-bike-light",
+    "value": "Remove"
+  },
+  {
+    "id": 1780547278963,
+    "action": "click",
+    "description": "Click \"Continue Shopping\"",
+    "locator": {
+      "type": "id",
+      "value": "continue-shopping"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Continue Shopping",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "continue-shopping",
+    "value": "Continue Shopping"
+  },
+  {
+    "id": 1780546205816,
+    "action": "click",
+    "description": "Click \"Open Menu\"",
+    "locator": {
+      "type": "css",
+      "value": "#react-burger-menu-btn"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Open Menu",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "selector": "#react-burger-menu-btn",
+    "value": "Open Menu"
+  },
+  {
+    "id": 1780546206940,
+    "action": "click",
+    "description": "Click \"Logout\"",
+    "locator": {
+      "type": "css",
+      "value": "#logout_sidebar_link"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Logout",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "selector": "#logout_sidebar_link",
+    "value": "Logout"
+  },
+  {
+    "id": 1780546208239,
+    "action": "click",
+    "description": "Click \"Swag Labs\"",
+    "locator": {
+      "type": "css",
+      "value": "div.login_logo"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Swag Labs",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "DIV",
+    "selector": "div.login_logo",
+    "value": "Swag Labs"
+  }
+]

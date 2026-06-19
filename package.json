@@ -1,31 +1,21 @@
 {
-  "name": "test-ctrl-playwright-tests",
+  "name": "test-capture-tests",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Playwright E2E test framework for test-capture",
+  "main": "playwright.config.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npm install && npx playwright install chromium && npx playwright test",
     "test:headed": "npx playwright test --headed",
-    "test:debug": "npx playwright test --debug",
-    "test:report": "npx playwright show-report"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kirank-cpu/test-ctrl-playwright-tests-js.git"
+    "report": "npx playwright show-report playwright-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/kirank-cpu/test-ctrl-playwright-tests-js/issues"
-  },
-  "homepage": "https://github.com/kirank-cpu/test-ctrl-playwright-tests-js#readme",
-  "devDependencies": {
+  "dependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.3"
+    "playwright": "^1.60.0"
   }
 }

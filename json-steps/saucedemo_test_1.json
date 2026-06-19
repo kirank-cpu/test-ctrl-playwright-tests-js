@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1780605615451.2026,
+    "action": "goto",
+    "description": "launch https://www.saucedemo.com/",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://www.saucedemo.com/",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1780605615453.0747,
+    "action": "fill",
+    "description": "Enter username 'standard_user'",
+    "locator": {
+      "type": "css",
+      "value": "[placeholder=\"Username\" i], [name=\"username\" i], [aria-label=\"Username\" i], #username"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "standard_user",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1780605615454.2805,
+    "action": "fill",
+    "description": "Enter password 'secret_sauce'",
+    "locator": {
+      "type": "css",
+      "value": "[placeholder=\"Password\" i], [name=\"password\" i], [aria-label=\"Password\" i], #password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "secret_sauce",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1780605615457.5122,
+    "action": "click",
+    "description": "Click on login button",
+    "locator": {
+      "type": "css",
+      "value": "button:has-text(\"login\"), a:has-text(\"login\"), [role=\"button\"]:has-text(\"login\"), [value=\"login\" i]"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  }
+]

@@ -37,11 +37,11 @@ async function runLoggedStep(stepNumber, title, page, action) {
   }
 }
 
-test('valid login', async ({ page }) => {
+test('valid_login', async ({ page }) => {
   const loginpage = new LoginPage(page);
 
-  await runLoggedStep(1, 'Launch the app', page, async () => {
-    await loginpage.launchTheApp();
+  await runLoggedStep(1, 'Launch the demo app', page, async () => {
+    await loginpage.launchTheDemoApp();
   });
 
   await runLoggedStep(2, 'Click "User Name"', page, async () => {

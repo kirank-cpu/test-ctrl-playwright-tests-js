@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1781104772484.5002,
+    "action": "goto",
+    "description": "Launch the app",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://www.saucedemo.com",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  },
+  {
+    "id": 1781104859488,
+    "action": "click",
+    "description": "Click \"User Name\"",
+    "locator": {
+      "type": "id",
+      "value": "user-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "user-name",
+    "value": ""
+  },
+  {
+    "id": 1781104860267,
+    "action": "fill",
+    "description": "Fill \"User Name\" field",
+    "locator": {
+      "type": "id",
+      "value": "user-name"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "standard_user",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "user-name",
+    "value": "s"
+  },
+  {
+    "id": 1781104865024,
+    "action": "click",
+    "description": "Click \"Password\"",
+    "locator": {
+      "type": "id",
+      "value": "password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "password",
+    "value": ""
+  },
+  {
+    "id": 1781104865663,
+    "action": "fill",
+    "description": "Fill \"Password\" field",
+    "locator": {
+      "type": "id",
+      "value": "password"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "secret_sauce",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "input",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "password",
+    "value": "s"
+  },
+  {
+    "id": 1781104869770,
+    "action": "click",
+    "description": "Click \"Login Button\"",
+    "locator": {
+      "type": "id",
+      "value": "login-button"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "INPUT",
+    "locatorType": "id",
+    "selector": "login-button",
+    "value": ""
+  },
+  {
+    "id": 1781104872333,
+    "action": "click",
+    "description": "Click \"Add to cart\"",
+    "locator": {
+      "type": "id",
+      "value": "add-to-cart-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Add to cart",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "add-to-cart-sauce-labs-backpack",
+    "value": "Add to cart"
+  },
+  {
+    "id": 1781104874698,
+    "action": "click",
+    "description": "Click \"1\"",
+    "locator": {
+      "type": "xpath",
+      "value": "//span[normalize-space()=\"1\"]"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "1",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "SPAN",
+    "locatorType": "xpath",
+    "selector": "//span[normalize-space()=\"1\"]",
+    "value": "1"
+  },
+  {
+    "id": 1781104876684,
+    "action": "click",
+    "description": "Click \"Remove\"",
+    "locator": {
+      "type": "id",
+      "value": "remove-sauce-labs-backpack"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Remove",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "remove-sauce-labs-backpack",
+    "value": "Remove"
+  },
+  {
+    "id": 1781104878755,
+    "action": "click",
+    "description": "Click \"Continue Shopping\"",
+    "locator": {
+      "type": "id",
+      "value": "continue-shopping"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Continue Shopping",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "continue-shopping",
+    "value": "Continue Shopping"
+  },
+  {
+    "id": 1781104880337,
+    "action": "click",
+    "description": "Click \"Open Menu\"",
+    "locator": {
+      "type": "id",
+      "value": "react-burger-menu-btn"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Open Menu",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "BUTTON",
+    "locatorType": "id",
+    "selector": "react-burger-menu-btn",
+    "value": "Open Menu"
+  },
+  {
+    "id": 1781104881798,
+    "action": "click",
+    "description": "Click \"Logout\"",
+    "locator": {
+      "type": "id",
+      "value": "logout_sidebar_link"
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "Logout",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false,
+    "type": "click",
+    "target": "A",
+    "locatorType": "id",
+    "selector": "logout_sidebar_link",
+    "value": "Logout"
+  }
+]
