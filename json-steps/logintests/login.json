@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1780728539613.1785,
+    "action": "goto",
+    "description": "launch",
+    "locator": {
+      "type": "css",
+      "value": ""
+    },
+    "destLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "frameLocator": {
+      "type": "css",
+      "value": ""
+    },
+    "fallback1": {
+      "type": "xpath",
+      "value": ""
+    },
+    "fallback2": {
+      "type": "text",
+      "value": ""
+    },
+    "inputValue": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "isSecure": false,
+    "isData": false,
+    "inIframe": false,
+    "isHealing": false
+  }
+]
